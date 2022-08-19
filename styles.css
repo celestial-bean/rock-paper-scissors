@@ -1,0 +1,26 @@
+body {
+  background-color: red;
+  top: 0;
+  bottom: 100%;
+  }
+button {
+  background-color: lightblue;
+  border-width: 0px;
+  font-weight: 500;
+  border-radius: 10px;
+  
+  width: 200px;
+  font-size: 14px;
+  height: 45px;
+  
+  }
+button:hover{
+  border-width: 3px;
+  border-radius: 15px;
+  width: 210px;
+  height: 50px;
+  border-color: lightblue;
+  }
+  .quit{
+    transform: translate(0, 100px);
+  }
